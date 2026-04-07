@@ -8,7 +8,7 @@ from scipy.stats import expon
 from scipy.stats import weibull_min
 
 
-CSV_PATH = "/Users/4c/Desktop/GHQ/data/loto7hh_4594_k28.csv"
+CSV_PATH = "/data/loto7hh_4594_k28.csv"
 
 
 def load_draws(path):
@@ -111,13 +111,13 @@ if __name__ == "__main__":
 
 """
 === SLEDECE KOMBINACIJE (6 DISTRIBUCIJA) ===
-CSV: /Users/4c/Desktop/GHQ/data/loto7hh_4594_k28.csv
+CSV: /data/loto7hh_4594_k28.csv
 Broj kola: 4594
 
-Next (norm): [ 3  5 13 16 21 24 31]
-Next (chi2): [13 16 21 24 25 31 38]
-Next (f): [ 4  6 12 14 15 19 28]
-Next (poisson): [ 1  8 17 20 23 27 30]
-Next (expon): [ 5  7 12 15 21 27 34]
-Next (weibull_min): [ 5  7 11 12 15 21 34]
+Next (norm): [ 3  5 x y z 24 31]
+Next (chi2): [13 16 x y z 31 38]
+Next (f): [ 4  6 x y z 19 28]
+Next (poisson): [ 1  8 x y z 27 30]
+Next (expon): [ 5  7 x y z 27 34]
+Next (weibull_min): [ 5  7 x y z 21 34]
 """
